@@ -1,0 +1,49 @@
+{
+    "name": "crawler.js",
+    "version": "1.0.0",
+    "description": "Simple web crawling & scraping framework for Node.js.",
+    "main": "index.js",
+    "scripts": {
+      "test": "./node_modules/mocha/bin/mocha test/test.js",
+      "postinstall": "opencollective-postinstall || true",
+      "lint": "./node_modules/.bin/eslint ./lib/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/krishpranav/crawler.js.git"
+    },
+    "keywords": [
+      "spider",
+      "crwal",
+      "scrape",
+      "grab"
+    ],
+    "author": "krishpranav",
+    "license": "MIT-License",
+    "bugs": {
+      "url": "https://github.com/krishpranav/crawler.js/issues"
+    },
+    "engines": {
+      "node": ">=10.0.0"
+    },
+    "homepage": "https://github.com/krishpranav/crawler.js#readme",
+    "dependencies": {
+      "jsdom": "^16.4.0",
+      "log4js": "^6.3.0",
+      "opencollective-postinstall": "^2.0.2",
+      "playwright": "^1.30.0",
+      "puppeteer": "^19.6.3",
+      "redis": "^3.1.2",
+      "request": "^2.88.0",
+      "uuid": "^3.1.0"
+    },
+    "devDependencies": {
+      "eslint": "^8.33.0",
+      "eslint-config-standard": "^17.0.0",
+      "eslint-plugin-import": "^2.27.5",
+      "eslint-plugin-n": "^15.6.1",
+      "eslint-plugin-promise": "^6.1.1",
+      "mocha": "^8.3.0",
+      "proxyquire": "^2.1.3"
+    }
+  }
